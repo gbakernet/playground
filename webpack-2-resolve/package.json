@@ -1,0 +1,19 @@
+{
+  "name": "webpack-2-resolve",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build-min": "webpack -p --config webpack.config.js",
+    "pretty": "js-beautify build/bundle.js -o build/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "js-beautify": "^1.6.8",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {
+    "left-pad": "^1.1.3"
+  }
+}
