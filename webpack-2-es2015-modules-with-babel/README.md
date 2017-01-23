@@ -3,7 +3,7 @@
 Showcasing
 
 * First class support for ES2015 Modules
-* Babel preset ES2015 excluding modules
+* Babel preset env excluding modules
 * Tree Shaking
 
 It's interesting when babel is configured with just `["env"]`.

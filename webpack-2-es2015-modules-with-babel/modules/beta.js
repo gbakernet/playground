@@ -1,4 +1,4 @@
-// Unused module, not remains in the output
+// Unused module, but it remains in the output
 const BETA_ID = "Beta"
 
 export default () => {
